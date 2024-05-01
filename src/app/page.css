@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+}
+
+.inputField {
+  font-size: 30px;
+}
+
+button {
+  height: 40px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: pink;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 600px;
+}
+
+input {
+  border-radius: 5px;
+}
+.chatHistory {
+  color: pink;
+  text-align: center;
+  padding-bottom: 15px;
+  font-size: 20px;
+  width: 70%;
+}
+
+.chatbot {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
