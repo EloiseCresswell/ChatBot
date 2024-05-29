@@ -11,7 +11,7 @@ export const dynamic = "force-dynamic";
 export async function POST(req: any) {
   const { messages } = await req.json();
 
-  // Ask OpenAI for a streaming chat completion given the prompt
+  // Ask OpenAI for a streaming chat completion  ∂given the prompt
   const response = await openai.chat.completions.create({
     model: "gpt-3.5-turbo",
     stream: true,
