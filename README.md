@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Simple Chatbot README
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is a simple chatbot designed to provide basic conversational interactions. It is built using TypeScript and Next.js to ensure a smooth user experience. The chatbot is easy to install and run, providing a foundation for future enhancements.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Basic conversational abilities
+- Easy installation and setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Future Aims
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Integrate a vector database to reduce the risk of hallucinations.
+- Add prompts to enhance the chatbot's functionality as a fun surfing buddy.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+To get started with the chatbot, follow these steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Ensure you have Node.js and npm (or yarn) installed on your machine.
+- Ensure you have `git` installed on your machine.
 
-## Deploy on Vercel
+### Clone the Repository
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Open your terminal or command prompt.
+2. Clone the repository by running the following command:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    git clone https://github.com/yourusername/simple-chatbot.git
+    ```
+3. Navigate to the cloned directory:
+
+    ```bash
+    cd simple-chatbot
+    ```
+
+### Install Dependencies
+
+1. Install the required packages using npm:
+
+    ```bash
+    npm install
+    ```
+
+    Or, if you prefer yarn:
+
+    ```bash
+    yarn install
+    ```
+
+## Running the Chatbot
+
+Once the dependencies are installed, you can start the chatbot:
+
+1. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+    Or, if you prefer yarn:
+
+    ```bash
+    yarn dev
+    ```
+
+2. Open your browser and navigate to `http://localhost:3000` to interact with the chatbot.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Make your changes and commit them with descriptive messages.
+4. Push your changes to your fork.
+5. Create a pull request detailing your changes.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+## Contact
+
+For any questions or suggestions, please open an issue on the repository or contact the maintainer at eloise.cress@hotmail.co.uk
+
+---
+
+Enjoy chatting with your new bot!
