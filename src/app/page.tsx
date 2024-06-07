@@ -6,7 +6,10 @@ export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat();
   return (
     <>
-      <h1>Hello! Welcome to your friendly ChatBot</h1>
+      <h1>
+        Hello! <br />
+        Welcome to your friendly ChatBot, ElBot
+      </h1>
       <div className="chatbot">
         {messages.map((m) => (
           <div key={m.id} className="chatHistory">

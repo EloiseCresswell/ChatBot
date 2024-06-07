@@ -1,5 +1,6 @@
 h1 {
   text-align: center;
+  margin-top: 100px;
 }
 
 .inputField {
@@ -28,7 +29,8 @@ input {
   border-radius: 5px;
 }
 .chatHistory {
-  color: pink;
+  color: #d04b63;
+  font-weight: bold;
   text-align: center;
   padding-bottom: 15px;
   font-size: 20px;
